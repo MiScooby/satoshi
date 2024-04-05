@@ -1,0 +1,51 @@
+.srb-in-dp a{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.srb-in-dp{
+    padding: 10px 5px;
+    display: flex;
+    align-items: center;
+}
+.srb-in-dp div:nth-child(2){
+    display: grid;
+}
+.srb-in-dp div:nth-child(2) span{
+    font-size: 12px;
+}
+.srb-in-dp div:nth-child(1){
+   width: 40px; 
+}
+
+.header-area .navbar-nav .ft-dd-menu li.ft-dd {
+    position: relative;
+    padding-bottom: 10px;
+    z-index: 1;
+    border-bottom: 1px solid #282375;
+}
+
+ul.ft-dd-menu {
+    padding: 0 !important;
+}
+
+.header-area .navbar-nav .ft-dd-menu li.ft-dd:nth-last-child(1){
+    border: none;
+}
+.coins{
+    width: 25px;
+}
+
+.header-area .navbar-nav li .ft-dd-menu.subchild{
+    max-height: 400px; 
+    overflow-y:auto ;
+}
+ 
+.ft-dd-menu.subchild strong{
+    width: 100%;
+    display: block;
+    background: #1d1353;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+}
