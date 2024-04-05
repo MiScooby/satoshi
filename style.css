@@ -866,7 +866,7 @@ table {
 }
 @media only screen and (min-width:992px) {
   .header-area .navbar-nav li > a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media only screen and (min-width:1200px) {
@@ -1154,7 +1154,7 @@ table {
 }
 @media only screen and (min-width:1200px) {
   .welcome-area .welcome-content h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
   }
 }
@@ -3328,4 +3328,25 @@ textarea.form-control {
 [data-theme=dark] .register-card p a,
 [data-theme=dark] .register-form .form-group label.label-psswd {
   color: #ffffff;
+}
+.newsletter-form.mt-5.me-5 {
+  background-color: #0c153b;
+  padding: 6px;
+  border-radius: 15px;
+  width: 400px;
+}
+input.form-control {
+  border: none;
+}
+button.btn.btn-warning.px-3 i {
+  font-weight: 700;
+  font-size: 20px;
+  transform: rotate(313deg);
+}
+
+button.btn.btn-warning.px-3 {
+  display: flex;
+  width: 173px;
+  align-items: center;
+  justify-content: space-between;
 }
