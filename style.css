@@ -854,7 +854,7 @@ table {
 }
 @media only screen and (min-width: 1200px) {
   .header-area .navbar .navbar-brand {
-    margin-right: 1rem;
+    margin-right: 2.5rem;
   }
 }
 .header-area .navbar .navbar-brand .dark-logo {
@@ -869,12 +869,12 @@ table {
 }
 @media only screen and (min-width: 992px) {
   .header-area .navbar-nav li > a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .header-area .navbar-nav li > a {
-    padding: 15px;
+    padding: 1rem 1.25rem;
   }
 }
 .header-area .navbar-nav li > a:hover,
@@ -900,7 +900,7 @@ table {
     transition: all 350ms ease-in;
     position: absolute;
     top: calc(100% + 8px);
-    width: 15rem;
+    width: 13rem;
     background-color: #ffffff;
     visibility: hidden;
     opacity: 0;
@@ -996,11 +996,9 @@ table {
   right: 1rem;
 }
 .header-area .navbar-nav li.ft-dd .ft-dd > a {
-  position: absolute;
-  padding: 0;
-  width: auto;
-  right: 0px;
-  top: 18px;
+  position: relative;
+  padding-right: 1.375rem;
+  width: 100%;
 }
 @media only screen and (min-width: 992px) {
   .header-area .navbar-nav li.ft-dd .ft-dd > a::after {
@@ -1011,7 +1009,7 @@ table {
     right: 1.25rem;
     content: "\f285";
     font-family: bootstrap-icons !important;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 .header-area .navbar-nav li.ft-dd .ft-dd .ft-dd-menu {
@@ -3051,14 +3049,9 @@ textarea.form-control {
 [data-theme="dark"] .header-area .navbar-nav li.ft-dd .dropdown-toggler {
   color: #c2d4f8;
 }
-<<<<<<< HEAD
-[data-theme=dark] .header-area .navbar-nav li:hover a, [data-theme=dark] .header-area .navbar-nav li:focus a {
-  color: #fff;
-=======
 [data-theme="dark"] .header-area .navbar-nav li:hover a,
 [data-theme="dark"] .header-area .navbar-nav li:focus a {
   color: #0d6efd;
->>>>>>> 933f65d329d8c170668400fa27411900c3d2f302
 }
 [data-theme="dark"] .header-area .header-meta .search-form button {
   background-color: transparent;
