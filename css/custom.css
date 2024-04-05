@@ -2,6 +2,7 @@
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 600;
+    color: #fff !important;
 }
 .srb-in-dp{
     padding: 10px 5px;
@@ -49,3 +50,53 @@ ul.ft-dd-menu {
     padding: 5px;
     color: #fff;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hny_topsa {
+    height: 200px;
+  }
+  .all-crypto-wrapper.hny {
+    height: 200px;
+    overflow: hidden;
+    background-color: #191d21;
+  }
+  .index_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  .green_s {
+    display: flex;
+    gap: 11px;
+    color: green;
+  }
+  .red_s {
+    display: flex;
+    gap: 11px;
+    color: red;
+  }
+  .index_card h3 {
+    font-size: 16px;
+    color: #e3e3e3;
+  }
+  .index_card h4 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  .altcoin-options-markets {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .text-center.hnt_sds h2 {
+    color: white;
+  }
+  .text-center.hnt_sds {
+    max-width: 50%;
+    margin: auto;
+  }
